@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	background-image: url("iStock-472300603.jpg");
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.auth-form {
+	align-items: stretch;
+}
+
+.welcome-container {
+	align-items: center;
+}
+
+.auth-form,
+.welcome-container {
+	margin: 20px;
+	padding: 30px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 400px;
+	border: 6px solid #fff;
+	background-color: #f78f5e;
+}
+
+.auth-form .auth-username,
+.auth-form .auth-password,
+.auth-form .auth-submit {
+	font-family: "Lato", sans-serif;
+	margin: 10px;
+	padding: 10px;
+	border: none;
+	border-top: 6px solid #77625c;
+	transition: border-top 0.5s;
+}
+
+.auth-form .auth-submit {
+	background-color: #77625c;
+	border: none;
+	color: #fff;
+	border: 3px solid #77625c;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	transition: background-color 0.5s, border 0.5s;
+}
+
+.auth-form .auth-submit:hover {
+	background-color: #45353c;
+	border: 3px solid #45353c;
+}
+
+.warning {
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+
+.home-btn {
+	background-color: #77625c;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	transition: background-color 0.5s, border 0.5s;
+}
+
+.home-btn:hover {
+	background-color: #45353c;
+}
+
+.home-btn a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.7em;
+}
+
+.welcome-container .welcome-message {
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
